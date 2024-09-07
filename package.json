@@ -1,8 +1,7 @@
 {
   "name": "icona-test",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0-thisisnotpublished",
-  "repository": "https://github.com/daangn/seed-icon.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "type": "module",
@@ -13,7 +12,6 @@
   "scripts": {
     "generate:icona": "node --no-warnings=ExperimentalWarning --loader ts-node/esm icona.ts",
     "generate:changeset": "node --no-warnings=ExperimentalWarning --loader ts-node/esm scripts/changeset.ts",
-    "release": "yarn changeset publish",
     "cs-version": "changeset version && yarn install --no-immutable"
   },
   "devDependencies": {

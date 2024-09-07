@@ -21,10 +21,10 @@ if (!fs.existsSync(changesetDir)) {
 }
 
 const changeSetContent = `---
-"@seed-design/react-icon": patch
-"@seed-design/vue2-icon": patch
-"@seed-design/vue3-icon": patch
-"@seed-design/assets": patch
+"@icona-test/react": patch
+"@icona-test/vue2": patch
+"@icona-test/vue3": patch
+"@icona-test/assets": patch
 ---
 
 Update icon assets from Figma

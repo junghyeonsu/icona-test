@@ -1,6 +1,6 @@
 import type { DrawableConfig, PDFConfig, PNGConfig, ReactConfig, SVGConfig, Vue2Config, Vue3Config } from "@icona/generator";
 import { generate } from "@icona/generator";
-import assetPkg from "./assets/package.json" assert { type: "json" };
+import assetPkg from "./package.json" assert { type: "json" };
 
 const svgConfig: SVGConfig = {
   genMode: "recreate",
